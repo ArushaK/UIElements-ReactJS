@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 import classes from "./Header.module.css";
-
+import SideDrawer from "./SideDrawer";
 
 function Header(props) {
   return (
@@ -9,7 +9,6 @@ function Header(props) {
       <header className={classes.header}>
         <h1>HEADER</h1>
       </header>
-     
     </>
   );
 }
