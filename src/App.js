@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import Button from './UI/Button';
 import Card from './UI/Card'
+import Header from './UI/Header';
 import Input from './UI/Input'
 import Modal from './UI/Modal'
 
@@ -17,7 +18,7 @@ function App() {
   return (
     <div className="App">
      <Card>
-       
+       <Header onShowCart={showCartHandler} />
        <Input label="Name"
         input={{
           id: "name",
